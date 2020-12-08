@@ -4,7 +4,7 @@ Simple CFG development in JSGF as part of Junghyun Min's interview process
 
 ## English grammar extension
 
-My understanding of JSGF and its <unk> tags are rudimentary. From what I've gathered from the documentation (linked in the pdf) and the explanations in the pdf, tokens without explicit mappings to a tag are tagged <unk>. I have assumed so in my tasks.
+My understanding of JSGF and its \<unk> tags are rudimentary. From what I've gathered from the documentation (linked in the pdf) and the explanations in the pdf, tokens without explicit mappings to a tag are tagged \<unk>. I have assumed so in my tasks.
 
 I organized the generatable sentences into <play_request> <music_entity>, where <play_request> is implicitly defined as (i want to listen to | [can you] (play [me] | put on)).
 
