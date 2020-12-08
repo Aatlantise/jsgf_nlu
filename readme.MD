@@ -15,7 +15,7 @@ The extended grammar is able to generate:
 - [i want to listen to]\<unk> [jazz]\<genre> [music]\<unk>
 - [play me]\<unk> [ummagumma]\<album> [by]\<unk> [pink floyd]\<artist>
 
-As the model is scaled, it is likely that music entities also include phrases like "can you play", "want to listen", and other tokens that should be tagged <unk>, parsing them as <music_entity>. Then, it may be beneficial to explicitly define <play_request> and have the model identify both <play_request> and <music_entity>. Tokens like [music] and [by] may also need to be explicitly defined.
+As the model is scaled, it is likely that music entities also include phrases like "can you play", "want to listen", and other tokens that should be tagged \<unk>, parsing them as <music_entity>. Then, it may be beneficial to explicitly define <play_request> and have the model identify both <play_request> and <music_entity>. Tokens like [music] and [by] may also need to be explicitly defined.
 
 ## Korean localization
 
